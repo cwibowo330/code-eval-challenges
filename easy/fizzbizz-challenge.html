@@ -5,20 +5,20 @@
 <p>CodeEval: FizzBizz Challenge</p>
 
 <script>
-var x = 3;
-var y = 5;
-var n = 50;
+ var a = 10,
+	b = 3,
+	n = 100;
 
-for (var i=1; i <= n; i++)
-{
-    if (i % (x*y) === 0)
-        console.log("FB");
-    else if (i % x === 0)
-        console.log("F");
-    else if (i % y === 0)
-        console.log("B");
-    else
-        console.log(i);
+for (var i=1; i <= n; i++){
+    if (i % a == 0 && i % b == 0){
+    	console.log("FB");
+    } else if (i % a === 0) {
+    	console.log("F");
+    } else if (i % b === 0) {
+    	console.log("B");
+    } else {
+    	console.log(i);
+    }
 }
 
 </script>
