@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+<p>CodeEval: Palindrome</p>
+
+<script type="text/javascript">
+var string = '100001';
+var revstr = string.split('').reverse().join('');
+
+var findPalindrome = function () {
+	if (string == revstr) {
+		console.log(string + " is a Palindrome");
+	} else {
+		console.log(string + " is NOT a Palindrome");
+	}
+}
+
+findPalindrome(string);
+</script>
+</body>
+</html>
+
+
+
